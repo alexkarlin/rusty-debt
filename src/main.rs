@@ -10,19 +10,15 @@ pub mod database;
 enum Cli {
     #[structopt(name = "add")]
     Add {
-        #[structopt(short, long)]
         creditor: String,
-        #[structopt(short, long)]
         debtor: String,
-        #[structopt(short, long)]
         amount: i64,
-        #[structopt(long, default_value = "N/A")]
+        #[structopt(default_value = "N/A")]
         description: String
     },
 
     #[structopt(name = "remove")]
     Remove {
-        #[structopt(short, long)]
         index: i64,
     },
 
