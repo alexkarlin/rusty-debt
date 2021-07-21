@@ -7,11 +7,9 @@ Rusty-debt is a CLI-based educational project created as an introduction to the 
 Rusty-debt is simple to use and contains only a few commands:
 
  * Ability to add debt records which track the creditor, debtor and amount of money owed, as well as a note:<br>
-   `rusty-debt add --creditor <creditor> --debtor <debtor> --amount <amount> --description <optional:description>` or<br>
-   `rusty-debt add -c <creditor> -d <debtor> -a <amount> --description <optional:description>`
+   `rusty-debt add <creditor> <debtor> <amount> [description]`
  * Ability to remove debt records when they are paid:<br>
-   `rusty-debt remove --index <index>` or<br>
-   `rusty-debt remove -i <index>`
+   `rusty-debt remove <index>`
  * Ability to reset the debt database and remove all debt:<br>
    `rusty-debt reset`
  * Ability to view all debt records (this is how you obtain the index used with the remove command):<br>
