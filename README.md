@@ -1,6 +1,6 @@
 ## What is rusty-debt?
 
-Rusty-debt is an educational project created as an introduction to the Rust language. It allows you to track in- and outgoing debt, so you’ll never miss out on another heated argument with your friend Joe about the 20 bucks he borrowed but never paid you back.
+Rusty-debt is a CLI-based educational project created as an introduction to the Rust language. It allows you to track in- and outgoing debt, so you will never miss out on another heated argument with your friend Joe about the 20 bucks he borrowed but never paid you back.
 
 ## How to use rusty-debt
 
